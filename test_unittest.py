@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 import unittest
-from ticky_check import find_error_message
+from log_analysis.ticky_check import find_error_message
 
 
-class FindErrorMessage(unittest.TestCase):
+class TestFindErrorMessage(unittest.TestCase):
 
     def test_string(self):
         self.assertEqual(
